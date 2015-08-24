@@ -1,0 +1,112 @@
+html, body { padding: 0; margin: 0; }
+body { background-color: aqua;}
+#logoAndButton { background-color: black; height: 100%; width: 30%; float: left; position: relative;}
+#detail { background-color: firebrick; height: 100%; width: 70%; float: left; position: relative;}
+#logo {
+    width: 100%; height: 30%; margin-top: 20px;
+}
+#buttonContainer {width: 100%; text-align: center; margin-top: 40px;}
+#buttonContainer button {
+    width: 70%; height: 50px; font-size: 15px; border-radius: 15px;
+    font-weight: 900; cursor: pointer;
+}
+#picBackground {width: 100%; height: 100%;}
+
+#darkLayer {
+    width: 100%; height: 100%; position: absolute; top: 0; left: 0;
+    background-color: rgba(50, 50, 50, 0.6);
+}
+
+#introductionHeader {
+    position: absolute;
+    color: white;
+    top: 130px;
+    left: 40px;
+    right: 40px;
+}
+
+#introduction {
+    position: absolute;
+    color: white;
+    top: 200px;
+    left: 40px;
+    right: 40px;
+/*    bottom: ;*/
+}
+#openingHourHeader {
+    position: absolute;
+    color: white;
+    bottom: 40px;
+    left: 40px;
+/*    right: 40px; */
+}
+#openingHour {
+    position: absolute;
+    color: white;
+    bottom: 20px;
+    left: 40px;
+/*    right: 40px; */
+}
+#DeliveryHourHeader {
+    position: absolute;
+    color: white;
+    bottom: 40px;
+/*    left: 500px;*/
+    right: 40px;
+    margin-right: 17px;
+}
+#DeliveryHour {
+    position: absolute;
+    color: white;
+    bottom: 20px;
+/*    left: 500px;*/
+    right: 40px;
+}
+
+#socialMedia { position: absolute; bottom: 0; text-align: center;
+    width: 100%; /* tell browser to calculate width of #socialMedia equal to 100% of #socialMedia's parent */
+}
+#facebook {width: 50px; height: 50px;}
+#twitter { width: 50px; height: 50px; }
+#instagram {width: 50px; height: 50px;}
+
+/*
+* menu detail css
+*/
+#menuDetail {position: relative;}
+
+#picBackground2{width: 100%; height: 100%;}
+
+#darkLayer2{
+    width: 100%; height: 100%; position: absolute; top: 0; left: 0;
+    background-color: rgba(50, 50, 50, 0.6);
+}
+
+#menuDetailContainer {
+    position: absolute;
+    color: white;
+    top: 80px;
+}
+/* select list-item (li) inside un-ordered list (ul) with id categories */
+#categories li {
+    float: left;
+/*    height: 30px;*/
+/*    width: auto; */
+    background-color: firebrick;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+/* select button inside each li inside ul */
+#categories li button {
+    font-size: 14px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-weight: 800;
+    cursor: pointer;
+}
+#categories li button:hover {
+    color: black;
+}
